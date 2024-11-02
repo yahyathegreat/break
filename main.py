@@ -16,3 +16,10 @@ for x in range(10):
     print("buzz")
   else:
      print(x)
+var = 10
+while var > 0:
+  var = var - 1
+  if var == 5:
+     continue
+  print('\nCurrent variable value :', var)
+print("\ngood bye!")
